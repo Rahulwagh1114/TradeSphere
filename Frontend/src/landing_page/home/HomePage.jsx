@@ -1,4 +1,4 @@
-import Footer from "../../footer";
+import Footer from "../../Footer";
 import Navbar from "../../Navbar";
 import OpenAccount from "../../opneAccount";
 import Awards from "./Awards";
@@ -10,14 +10,14 @@ import Hero from "./Hero";
 function HomePage(){
     return(
         <>
-        <Navbar/>
+    
         <Hero/>
         <Awards/>
         <State/>
         <Pricing/>
         <Eduction/>
         <OpenAccount/>
-        <Footer/>
+   
 
         </>
     )

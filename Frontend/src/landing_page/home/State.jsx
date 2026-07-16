@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-function State(){
-    return(
+function State() {
+    return (
         <div className="container p-3">
             <div className="row p-5 ">
                 <div className="col-6 p-5">
@@ -20,11 +20,11 @@ function State(){
                     <p className="text-muted">With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
                 <div className="col-6 p-5">
-                    <img src="media\ecosystem.png" alt="" style={{width:"90%"}} />
-                     <div className="text-center">
-                        <a href="#" className="mx-3" style={{textDecoration:"none"}}>Explore our products   <FontAwesomeIcon icon={faArrowRight} /></a>
-                        <a href="#" className="mx-3" style={{textDecoration:"none"}}>Try kite demo   <FontAwesomeIcon icon={faArrowRight} /></a>
-                     </div>
+                    <img src="media\ecosystem.png" alt="" style={{ width: "90%" }} />
+                    <div className="text-center">
+                        <a href="#" className="mx-3" style={{ textDecoration: "none" }}>Explore our products   <FontAwesomeIcon icon={faArrowRight} /></a>
+                        <a href="#" className="mx-3" style={{ textDecoration: "none" }}>Try kite demo   <FontAwesomeIcon icon={faArrowRight} /></a>
+                    </div>
                 </div>
             </div>
         </div>
