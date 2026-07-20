@@ -12,7 +12,7 @@ function LeftSection({
     return(
        <div className="container mt-5">
         <div className="row">
-            <div className="col-6 p-5">
+            <div className="col-6 p-5 mb-5">
                <img src={imgUrl} style={{width:"90%"}} alt="" />
             </div>
             <div className="col-6 p-5">

@@ -1,6 +1,14 @@
+import OpenAccount from "../../OpneAccount";
+import Brokerage from "./Brokerage";
+import Heero from "./Heero";
+
 function PricingPage(){
     return(
-        <h1>Pricing page</h1>
+        <>
+          <Heero/>
+           <OpenAccount/>
+           <Brokerage/>
+        </>
     )
 }
 
